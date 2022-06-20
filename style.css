@@ -57,3 +57,8 @@ body{
     margin-right: 1rem;
 }
 
+hr{
+    opacity: 0.1;
+    height: 0px;
+    /* font-weight: 300; */
+}
