@@ -8,6 +8,10 @@ body{
     background-color: hsl(217, 54%, 11%);
 }
 
+h1{
+    font-size: 18px;
+    cursor: pointer;
+}
 
 .container{
     background-color: hsl(216, 50%, 16%);
@@ -61,4 +65,9 @@ hr{
     opacity: 0.1;
     height: 0px;
     /* font-weight: 300; */
+}
+
+
+#p2{
+    cursor: pointer;
 }
