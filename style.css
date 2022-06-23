@@ -22,7 +22,7 @@ h1{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 .container, img{
@@ -64,10 +64,27 @@ h1{
 hr{
     opacity: 0.1;
     height: 0px;
-    /* font-weight: 300; */
+    
 }
 
 
 #p2{
+    cursor: pointer;
+}
+
+
+#img{
+    
+    opacity: 0;
+}
+
+.eyes{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    padding: 7rem;
+    width: 40px;
+    height: 45px;
+    border-radius:10px;
     cursor: pointer;
 }
